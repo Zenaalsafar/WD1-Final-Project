@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  font-family: "poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(228, 223, 234);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.container nav .menu {
+  width: 98%;
+  box-shadow: -1px 1px 3px rgb(67, 27, 122), 3px 3px 5px rgb(67, 27, 122);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+.container nav .menu .logo {
+  width: 6rem;
+  height: 4rem;
+  transition: 0.3s;
+}
+.container nav {
+  width: 100%;
+  padding: 12px 0;
+  box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px #ceced1;
+}
+
+.container nav .menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.container nav .menu ul li {
+  background-color: rgb(188, 154, 235);
+  margin-left: 20px;
+  box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px #ceced1;
+  border-radius: 7px 0px 7px 0px;
+}
+
+.container nav .menu ul a {
+  margin: 0 8px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  font-weight: 400;
+  display: inline-flex;
+  padding: 8px 10px;
+
+  position: relative;
+}
+.container nav .menu ul li a:hover:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.container nav .menu ul a:hover {
+  color: purple;
+}
+
+.container nav .menu .logo:hover {
+  transform: translate(-0px, -5px);
+}
+
+.container nav .menu .creator {
+  background-color: rgb(188, 154, 235);
+  padding: 5px;
+}
+
+.container nav .menu .creator a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.container nav .menu .creator:hover {
+  transform: translate(-0px, -5px);
+}
+
+#check {
+  display: none;
+}
+
+nav label.button {
+  cursor: pointer;
+  display: none;
+}
+
+nav .menu label.bars {
+  margin-right: 20px;
+}
+
+nav label.cancel {
+  position: absolute;
+  top: 25px;
+  right: 30px;
+}
+
+@media (max-width: 940px) {
+  .container nav .menu ul {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    max-width: 400px;
+    padding-top: 45px;
+    height: 100%;
+    background: #dab8ee;
+    box-shadow: none;
+    z-index: 12;
+    transition: all 0.3s ease;
+  }
+  .container nav .menu ul li {
+    box-shadow: none;
+    background-color: #dab8ee;
+    text-align: center;
+  }
+  .menu ul li a {
+    display: block;
+    font-size: 23px;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .menu ul a:hover:before {
+    box-shadow: none;
+  }
+  nav label.bars {
+    display: block;
+  }
+  #check:checked ~ label.bars {
+    display: none;
+  }
+  #check:checked ~ ul label.cancel {
+    display: block;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
+}
+
+.container .heading {
+  padding-bottom: 30px;
+  margin: 20px 20px 0px 20px;
+  width: 50%;
+}
+
+.container .heading h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  border-bottom: 3px solid rgb(156, 115, 214);
+}
+
+.container .heading h1 span {
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+
+.container .content p {
+  padding: 10px;
+  text-align: justify;
+  text-indent: 2em;
+}
+
+.container .content .breakfast img {
+  width: 300px;
+  height: 400px;
+  float: right;
+  margin: 15px;
+  border: 5px solid rgb(156, 115, 214);
+  border-radius: 10%;
+}
+
+.container .content .typical-lunch img {
+  width: 600px;
+  height: 400px;
+  float: left;
+  margin: 15px;
+  border: 5px solid rgb(156, 115, 214);
+  border-radius: 10%;
+}
+
+.content {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.container .content .biryani img {
+  width: 300px;
+  height: 400px;
+  float: right;
+  margin: 15px;
+  border: 5px solid rgb(156, 115, 214);
+  border-radius: 10%;
+}
+
+.container .content .dolma img {
+  width: 300px;
+  height: 400px;
+  float: left;
+  margin: 15px;
+  border: 5px solid rgb(156, 115, 214);
+  border-radius: 10%;
+}
+
+.container .content .kifta img {
+  width: 300px;
+  height: 400px;
+  float: right;
+  margin: 15px;
+  border: 5px solid rgb(156, 115, 214);
+  border-radius: 10%;
+}
+
+.container .content .klecha img {
+  width: 400px;
+  height: 300px;
+  float: right;
+  margin: 15px;
+  border: 5px solid rgb(156, 115, 214);
+  border-radius: 10%;
+}
+.container .content .Baklava img {
+  width: 400px;
+  height: 230px;
+  float: right;
+  margin: 15px;
+  border: 5px solid rgb(156, 115, 214);
+  border-radius: 10%;
+}
