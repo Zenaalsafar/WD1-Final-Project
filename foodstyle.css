@@ -158,6 +158,7 @@ nav label.cancel {
     left: 0;
   }
 }
+
 .container .heading {
   padding-bottom: 30px;
   margin: 20px 20px 0px 20px;
@@ -175,122 +176,75 @@ nav label.cancel {
   font-size: 2.5rem;
 }
 
-.content {
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-p {
+.container .content p {
   padding: 10px;
   text-align: justify;
   text-indent: 2em;
 }
 
-.container .content .map img {
-  width: 400px;
-  height: 350px;
+.container .content .breakfast img {
+  width: 300px;
+  height: 400px;
   float: right;
   margin: 15px;
   border: 5px solid rgb(156, 115, 214);
   border-radius: 10%;
 }
 
-.container .content .dam img {
-  width: 450px;
-  height: 300px;
+.container .content .typical-lunch img {
+  width: 600px;
+  height: 400px;
   float: left;
   margin: 15px;
   border: 5px solid rgb(156, 115, 214);
   border-radius: 10%;
 }
 
-.container .content .Erbil2 img {
-  width: 350px;
-  height: 450px;
-  float: left;
-  margin: 15px;
-  border: 5px solid rgb(156, 115, 214);
-  border-radius: 10%;
-}
-
-.container .content .suli img {
-  width: 400px;
-  height: 300px;
-  float: right;
-  margin: 15px;
-  border: 5px solid rgb(156, 115, 214);
-  border-radius: 10%;
-}
-
-.container .content .Halabja img {
-  width: 400px;
-  height: 300px;
-  float: left;
-  margin: 15px;
-  border: 5px solid rgb(156, 115, 214);
-  border-radius: 10%;
-}
-
-.container .content .mountain img {
-  width: 500px;
-  height: 300px;
-  float: right;
-  margin: 15px;
-  border: 5px solid rgb(156, 115, 214);
-  border-radius: 10%;
-}
-
-.container2 {
+.content {
   margin-left: 10%;
   margin-right: 10%;
 }
 
-.container2 .all-images {
-  display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-template-rows: auto;
-  grid-auto-flow: dense;
+.container .content .biryani img {
+  width: 300px;
+  height: 400px;
+  float: right;
+  margin: 15px;
+  border: 5px solid rgb(156, 115, 214);
+  border-radius: 10%;
 }
 
-.container2 .all-images img {
-  width: 100%;
-  border: solid rgb(110, 166, 230);
-  border-radius: 1rem;
-  transition: 0.3s;
+.container .content .dolma img {
+  width: 300px;
+  height: 400px;
+  float: left;
+  margin: 15px;
+  border: 5px solid rgb(156, 115, 214);
+  border-radius: 10%;
 }
 
-.container2 .all-images iframe {
-  width: 100%;
-  border: solid rgb(110, 166, 230);
-  border-radius: 1rem;
-  transition: 0.3s;
+.container .content .kifta img {
+  width: 300px;
+  height: 400px;
+  float: right;
+  margin: 15px;
+  border: 5px solid rgb(156, 115, 214);
+  border-radius: 10%;
 }
 
-.container2 .all-images video {
-  width: 100%;
-  border: solid rgb(110, 166, 230);
-  border-radius: 1rem;
-  transition: 0.3s;
+.container .content .klecha img {
+  width: 400px;
+  height: 300px;
+  float: right;
+  margin: 15px;
+  border: 5px solid rgb(156, 115, 214);
+  border-radius: 10%;
 }
-
-.container2 .all-images .horizontal {
-  grid-column: auto/ span 3;
-}
-
-.container2 .all-images .big {
-  grid-column: auto/ span 2;
-  grid-row: span 2;
-}
-
-.container2 .all-images img:hover {
-  transform: translate(-0px, -5px);
-}
-
-.container2 .all-images iframe:hover {
-  transform: translate(-0px, -5px);
-}
-
-.container2 .all-images video:hover {
-  transform: translate(-0px, -5px);
+.container .content .Baklava img {
+  width: 400px;
+  height: 230px;
+  float: right;
+  margin: 15px;
+  border: 5px solid rgb(156, 115, 214);
+  border-radius: 10%;
 }

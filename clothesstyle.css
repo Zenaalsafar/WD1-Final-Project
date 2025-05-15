@@ -158,6 +158,7 @@ nav label.cancel {
     left: 0;
   }
 }
+
 .container .heading {
   padding-bottom: 30px;
   margin: 20px 20px 0px 20px;
@@ -178,62 +179,18 @@ nav label.cancel {
 .content {
   margin-left: 10%;
   margin-right: 10%;
+  padding: 20px;
 }
 
-p {
+.content p {
   padding: 10px;
   text-align: justify;
   text-indent: 2em;
 }
 
-.container .content .map img {
-  width: 400px;
-  height: 350px;
-  float: right;
-  margin: 15px;
-  border: 5px solid rgb(156, 115, 214);
-  border-radius: 10%;
-}
-
-.container .content .dam img {
-  width: 450px;
-  height: 300px;
-  float: left;
-  margin: 15px;
-  border: 5px solid rgb(156, 115, 214);
-  border-radius: 10%;
-}
-
-.container .content .Erbil2 img {
-  width: 350px;
-  height: 450px;
-  float: left;
-  margin: 15px;
-  border: 5px solid rgb(156, 115, 214);
-  border-radius: 10%;
-}
-
-.container .content .suli img {
-  width: 400px;
-  height: 300px;
-  float: right;
-  margin: 15px;
-  border: 5px solid rgb(156, 115, 214);
-  border-radius: 10%;
-}
-
-.container .content .Halabja img {
-  width: 400px;
-  height: 300px;
-  float: left;
-  margin: 15px;
-  border: 5px solid rgb(156, 115, 214);
-  border-radius: 10%;
-}
-
-.container .content .mountain img {
+.content .clothes img {
   width: 500px;
-  height: 300px;
+  height: 320px;
   float: right;
   margin: 15px;
   border: 5px solid rgb(156, 115, 214);
@@ -245,52 +202,30 @@ p {
   margin-right: 10%;
 }
 
-.container2 .all-images {
+.container2 .images {
   display: grid;
   gap: 20px;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
   grid-template-rows: auto;
   grid-auto-flow: dense;
 }
 
-.container2 .all-images img {
-  width: 100%;
-  border: solid rgb(110, 166, 230);
-  border-radius: 1rem;
-  transition: 0.3s;
-}
-
-.container2 .all-images iframe {
-  width: 100%;
-  border: solid rgb(110, 166, 230);
-  border-radius: 1rem;
-  transition: 0.3s;
-}
-
-.container2 .all-images video {
-  width: 100%;
-  border: solid rgb(110, 166, 230);
-  border-radius: 1rem;
-  transition: 0.3s;
-}
-
-.container2 .all-images .horizontal {
-  grid-column: auto/ span 3;
-}
-
-.container2 .all-images .big {
+.container2 .images .big {
   grid-column: auto/ span 2;
   grid-row: span 2;
 }
 
-.container2 .all-images img:hover {
-  transform: translate(-0px, -5px);
+.container2 .images .horizontal {
+  grid-column: auto/ span 2;
 }
 
-.container2 .all-images iframe:hover {
-  transform: translate(-0px, -5px);
+.container2 .images img {
+  width: 100%;
+  border: solid rgb(110, 166, 230);
+  border-radius: 1rem;
+  transition: 0.3s;
 }
 
-.container2 .all-images video:hover {
+.container2 .images img:hover {
   transform: translate(-0px, -5px);
 }
